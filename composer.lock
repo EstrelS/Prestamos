@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "88970a0117c062eed55fa8728fc43833",
+    "content-hash": "f8442cb31e50ff2aa3cf9d637ba9a6df",
     "packages": [
         {
             "name": "brick/math",
@@ -509,6 +509,39 @@
                 }
             ],
             "time": "2024-12-27T00:36:43+00:00"
+        },
+        {
+            "name": "francerz/php-power-data",
+            "version": "v0.1.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/francerz/php-power-data.git",
+                "reference": "59c7cfaa06a6db4a5c21b4e28049a62c7ea40011"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/francerz/php-power-data/zipball/59c7cfaa06a6db4a5c21b4e28049a62c7ea40011",
+                "reference": "59c7cfaa06a6db4a5c21b4e28049a62c7ea40011",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Francerz\\PowerData\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Francisco CZ"
+                }
+            ],
+            "description": "PHP data structures for complex data handling",
+            "support": {
+                "issues": "https://github.com/francerz/php-power-data/issues",
+                "source": "https://github.com/francerz/php-power-data/tree/v0.1.37"
+            },
+            "time": "2024-09-06T16:18:02+00:00"
         },
         {
             "name": "fruitcake/php-cors",
